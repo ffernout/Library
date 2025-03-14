@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, render
 from .models import Book
 
+
 def book_detail(request, id):
     if request.method == 'GET':
         book_id = get_object_or_404(models.Book, id=id)
