@@ -1,24 +1,15 @@
 from django.shortcuts import render
-from . import models
-
+from .models import Book
 
 def all_category_book(request):
     if request.method == 'GET':
-        query = models.Get.objects.all()
-        return render(request,
-                      template_name='tags/all_category_book.html',
-                      context={'query': query}
-                      )
-def fantastic_category_book(request):
-    if request.method == 'GET':
-        query = models.Get.objects.all().filter(tags__name='Фантастика')
-        return render(request,
-                      template_name='tags/fantastic_category_film.html',
-                      context={'query': query}
-                      )
-def comedy_category_book(request):
-    if request.method == 'GET':
-        query = models.Get.objects.all().filter(tags__name='Комедия')
-        return render(request,
-                      template_name='tags/comedy_category_book.html',
-                      context={'query': query})
+        books = Book.objects.all()
+        return render(request, 'tags/all_category_book.html', {'books': books})
+
+def children_books(request):
+    books = Book.objects.filter(category='Книги для детей')
+    return render(request, 'tags/children_books.html', {'books': books})
+
+def teen_books(request):
+    books = Book.objects.filter(category='Книги для подростков')
+    return render(request, 'tags/teen_books.html', {'books': books})

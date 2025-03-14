@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b38704c7-b219-4eac-b307-1c937359d5ab" name="Changes" comment="Library homework">
-      <change afterPath="$PROJECT_DIR$/static/css/book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/book_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/GeeksLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/GeeksLibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/templates/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/GeeksLibrary/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tags/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +96,7 @@
       <workItem from="1741677018392" duration="17000" />
       <workItem from="1741691209597" duration="9000" />
       <workItem from="1741691766461" duration="68000" />
-      <workItem from="1741962928132" duration="3915000" />
+      <workItem from="1741962928132" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="Library homework">
       <option name="closed" value="true" />
