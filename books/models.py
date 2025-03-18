@@ -33,4 +33,4 @@ class Reviews(models.Model):
                                     related_name='reviews')
     created_at = models.DateTimeField(auto_now_add=True)
     description = models.TextField()
-    grade = models.CharField(choices=GRADE, default='🌟')
+    grade = models.CharField(choices=GRADE, default='🌟', max_length=30)
