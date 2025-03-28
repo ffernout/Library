@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b38704c7-b219-4eac-b307-1c937359d5ab" name="Changes" comment="Library homework">
-      <change afterPath="$PROJECT_DIR$/parser/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parser/parser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parser/parser_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/working/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/working/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/working/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b38704c7-b219-4eac-b307-1c937359d5ab" name="Changes" comment="Library homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +99,7 @@
       <workItem from="1742295085940" duration="12000" />
       <workItem from="1742563190995" duration="2302000" />
       <workItem from="1742900981192" duration="235000" />
-      <workItem from="1743160656156" duration="2175000" />
+      <workItem from="1743160656156" duration="2246000" />
     </task>
     <task id="LOCAL-00001" summary="Library homework">
       <option name="closed" value="true" />
