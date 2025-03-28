@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for i in book_list %}
+
+    <p> {{ i.title}} </p>
+    <a href="{{ i.url  }}">Перейти к книге.</a>
+
+{% endfor %}
+</body>
+</html>
