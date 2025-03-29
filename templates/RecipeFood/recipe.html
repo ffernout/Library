@@ -1,0 +1,10 @@
+<{% for recipe in recipes %}
+    <h2>{{ recipe.title }}</h2>
+    <p>{{ recipe.description }}</p>
+    <a href="{% url 'recipe_detail' recipe.id %}">Просмотреть</a>
+    <form action="{% url 'recipe_delete' recipe.id %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit">Удалить</button>
+    </form>
+{% endfor %}
+<a href="{% url 'recipe_create' %}">Добавить рецепт</a>
